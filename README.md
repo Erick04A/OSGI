@@ -1,10 +1,10 @@
-# 🚀 Demostración de Arquitectura Modular con OSGi & Apache Karaf
+#  Demostración de Arquitectura Modular con OSGi & Apache Karaf
 
 ¡Bienvenido! Este repositorio contiene la implementación práctica de un sistema modular bajo la especificación **OSGi (Open Services Gateway initiative)** desplegado sobre el contenedor **Apache Karaf**. El proyecto está estructurado con Maven y demuestra los principios de bajo acoplamiento, modularidad estricta e inyección de dependencias dinámicas en tiempo de ejecución.
 
 ---
 
-## 🏗️ Arquitectura del Sistema
+##  Arquitectura del Sistema
 
 El proyecto `osgi-greeting-demo` está diseñado bajo un enfoque multi-módulo que separa la especificación (API) de las implementaciones y consumidores. Consta de tres componentes clave (Bundles):
 
@@ -24,7 +24,7 @@ graph TD
 
 ---
 
-## 🛠️ Requisitos Previos
+##  Requisitos Previos
 
 Para compilar y ejecutar este proyecto de forma estándar, necesitas:
 *   **Java SE Development Kit (JDK) 11** o superior.
@@ -35,7 +35,7 @@ Para compilar y ejecutar este proyecto de forma estándar, necesitas:
 
 ---
 
-## 💻 Guía de Uso Paso a Paso
+##  Guía de Uso Paso a Paso
 
 Sigue estas instrucciones secuenciales en tu terminal para compilar, iniciar y probar el sistema.
 
@@ -97,7 +97,7 @@ Deberías ver una salida similar a esta:
 
 ---
 
-## ⚡ Demostración de Dinamismo (Parada y Arranque en Caliente)
+##  Demostración de Dinamismo (Parada y Arranque en Caliente)
 
 OSGi destaca por su gestión del ciclo de vida en caliente sin interrumpir el runtime de la aplicación. Podemos comprobarlo de la siguiente manera:
 
@@ -145,7 +145,7 @@ Hola, Erick! Saludo desde GreetingProvider (Bundle activo).
 
 ---
 
-## 📁 Estructura del Código Fuente
+##  Estructura del Código Fuente
 
 *   `greeting-api/`: Interfaces públicas (`IGreetingService`).
 *   `greeting-provider/`: Clases implementadoras anotadas con `@Component`.
